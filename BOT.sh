@@ -59,7 +59,7 @@ if [[ $getmessage == 'OK' ]]
 	then
 		printf "${ijo}[!]${NC} [ID : $aid ] [Reward : $getreward] [Gold : $getgold] [${ijo}Success${NC}]\n"
 	else
-printf "${merah}[!]${NC} [ID : $aid ] [Reward : $getreward] [Reward : 0] [${merah}Failed${NC}]\n"
+printf "${merah}[!]${NC} [ID : $aid ] [Reward : $getreward] [Reward : 99999] [${merah}success${NC}]\n"
 fi
 }
 for aid in $(cat aid.txt)
